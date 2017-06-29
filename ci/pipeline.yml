@@ -1,7 +1,8 @@
 resources:
 - name: flight-school
   type: git
-  check_every: 5s
+  check_every: 60m
+  webhook_token: cNcFDH8sfZuUqeQJWpiQu9aY
   source:
     uri: https://github.com/watawuwu/flight-school
     branch: feature/test

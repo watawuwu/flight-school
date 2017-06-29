@@ -3,7 +3,8 @@ resources:
   type: git
   source:
     uri: https://github.com/watawuwu/flight-school
-    branch: master
+    branch: feature/test
+    check_every: 5s
 
 jobs:
 - name: test-app

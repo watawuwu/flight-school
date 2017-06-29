@@ -1,10 +1,10 @@
 resources:
 - name: flight-school
   type: git
+  check_every: 5s
   source:
     uri: https://github.com/watawuwu/flight-school
     branch: feature/test
-    check_every: 5s
 
 jobs:
 - name: test-app
